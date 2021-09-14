@@ -1,0 +1,67 @@
+
+/* BEM methodology */
+/* Block, Element, Modifier */
+.image-carousel {
+    height: auto;
+    width: 600px;
+    margin: auto;
+    background-color: #ccc;
+    border: 1px solid #000;
+    text-align: center;
+    display: block;
+}
+
+.image-carousel .image-carousel-photo {
+    height: inherit;
+    width: inherit;
+    display: block;
+}
+
+/* button */
+.button {
+    background-color: #448aad;
+    color: #fff;
+    padding: 10px;
+    border: 0px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    margin: auto 0;
+}
+
+button.button--disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Functional css methodology */
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.background-green {
+    background-color: green;
+}
+
